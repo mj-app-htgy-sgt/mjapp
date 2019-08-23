@@ -1,0 +1,24 @@
+{
+    "responseStatus": 200,
+    "isResponseError": 1,
+    "data": {
+        "1" : {
+            "status1": 0,
+            "status2": 0,
+            "status3": 0,
+            "status4": 0
+        },
+        "2" : {
+            "status1": 1,
+            "status2": 1,
+            "status3": 1,
+            "status4": 1
+        },
+        "3" : {
+            "status1": 2,
+            "status2": 2,
+            "status3": 2,
+            "status4": 2
+        }
+    }
+}

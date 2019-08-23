@@ -1,0 +1,257 @@
+.App {
+
+}
+
+#mainTable {
+    width: 1200px;
+    height: 1200px;
+    zoom: 0.5;
+    background-color: rgb(144, 221, 204);
+}
+
+.statusBox {
+    position: absolute;
+    top: 435px;
+    left: 550px;
+}
+
+.playerBox0 {
+    position: absolute;
+    left: 275px;
+    top: 685px;
+    width: 750px;
+    height: 300px;
+}
+.playerBox1 {
+    position: absolute;
+    left: 700px;
+    top: 370px;
+    width: 500px;
+    height: 300px;
+    transform: rotate( -90deg );
+    outline: 1px solid transparent;
+}
+.playerBox2 {
+    position: absolute;
+    left: 275px;
+    top: 85px;
+    width: 750px;
+    height: 300px;
+    transform: rotate( -180deg );
+    outline: 1px solid transparent;
+}
+.playerBox3 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 500px;
+    height: 300px;
+    transform: rotate( -270deg );
+    outline: 1px solid transparent;
+}
+
+
+div.kawa {
+    margin: 0 auto;
+}
+
+i[class^='pai'] {
+    display: block;
+    background : url('./mahjong01.png') no-repeat;
+    width: 43px;
+    height: 67px;
+    float: left;
+}
+*:focus {
+    outline: none;
+}
+i[class*='sideways'] {
+    transform: rotate( -90deg );
+    margin: 0 14px;
+}
+i[class*='closed'] {
+    background-position-y: -588px; 
+    background-position-x: -574px; 
+}
+
+div.tehai{
+    width: 610px;
+    margin: 0 auto;
+    height: 75px;
+}
+div.yama {
+    position: relative;
+    width: 610px;
+    margin: 0 auto;
+    height: 75px;
+}
+div.wanPai {
+    position: absolute;
+    top: 210px;
+    left: 365px;
+    margin: 0 auto;
+    height: 75px;
+}
+div.upper {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+div.kawa {
+    height: 210px;
+    width: 300px;
+}
+
+.pai.m1{
+    background-position-y: -146px;
+    background-position-x: -2px; 
+}
+.pai.m2{
+    background-position-y: -146px;
+    background-position-x: -50px; 
+}
+.pai.m3{
+    background-position-y: -146px;
+    background-position-x: -98px; 
+}
+.pai.m4{
+    background-position-y: -146px;
+    background-position-x: -146px; 
+}
+.pai.m5{
+    background-position-y: -146px;
+    background-position-x: -194px; 
+}
+.pai.m5.red{
+    background-position-y: -290px;
+    background-position-x: -98px; 
+}
+.pai.m6{
+    background-position-y: -146px;
+    background-position-x: -242px; 
+}
+.pai.m7{
+    background-position-y: -146px;
+    background-position-x: -290px; 
+}
+.pai.m8{
+    background-position-y: -146px;
+    background-position-x: -338px; 
+}
+.pai.m9{
+    background-position-y: -146px;
+    background-position-x: -386px; 
+}
+.pai.p1{
+    background-position-y: -74px;
+    background-position-x: -2px; 
+}
+.pai.p2{
+    background-position-y: -74px;
+    background-position-x: -50px; 
+}
+.pai.p3{
+    background-position-y: -74px;
+    background-position-x: -98px;  
+}
+.pai.p4{
+    background-position-y: -74px;
+    background-position-x: -146px; 
+}
+.pai.p5{
+    background-position-y: -74px;
+    background-position-x: -194px; 
+}
+.pai.p5.red{
+    background-position-y: -290px;
+    background-position-x: -50px; 
+}
+.pai.p6{
+    background-position-y: -74px;
+    background-position-x: -242px; 
+}
+.pai.p7{
+    background-position-y: -74px;
+    background-position-x: -290px; 
+}
+.pai.p8{
+    background-position-y: -74px;
+    background-position-x: -338px; 
+}
+.pai.p9{
+    background-position-y: -74px;
+    background-position-x: -386px; 
+}
+.pai.s1{
+    background-position-y: -2px;
+    background-position-x: -2px; 
+}
+.pai.s2{
+    background-position-y: -2px;
+    background-position-x: -50px; 
+}
+.pai.s3{
+    background-position-y: -2px;
+    background-position-x: -98px; 
+}
+.pai.s4{
+    background-position-y: -2px;
+    background-position-x: -146px; 
+}
+.pai.s5{
+    background-position-y: -2px;
+    background-position-x: -194px; 
+}
+.pai.s5.red{
+    background-position-y: -290px;
+    background-position-x: -2px; 
+}
+.pai.s6{
+    background-position-y: -2px;
+    background-position-x: -242px; 
+}
+.pai.s7{
+    background-position-y: -2px;
+    background-position-x: -290px; 
+}
+.pai.s8{
+    background-position-y: -2px;
+    background-position-x: -338px; 
+}
+.pai.s9{
+    background-position-y: -2px;
+    background-position-x: -386px; 
+}
+.pai.z1{
+    background-position-y: -218px;
+    background-position-x: -2px; 
+}
+.pai.z2{
+    background-position-y: -218px;
+    background-position-x: -50px; 
+}
+.pai.z3{
+    background-position-y: -218px;
+    background-position-x: -98px; 
+}
+.pai.z4{
+    background-position-y: -218px;
+    background-position-x: -146px; 
+}
+.pai.z5{
+    background-position-y: -218px;
+    background-position-x: -194px; 
+}
+.pai.z6{
+    background-position-y: -218px;
+    background-position-x: -242px; 
+}
+.pai.z7{
+    background-position-y: -218px;
+    background-position-x: -290px; 
+}
+
+.pai.closed{
+    background-position-y: -218px;
+    background-position-x: -338px; 
+}

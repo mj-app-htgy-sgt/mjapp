@@ -1,0 +1,22 @@
+.tenbo{
+    display: block;
+    background : url('./ma-jan0.png') no-repeat;
+    width: 250px;
+    height: 30px;
+}
+.tenbo.hundred{
+    background-position-y: -351px; 
+    background-position-x: -340px; 
+}
+.tenbo.thousand{
+    background-position-y: -389px; 
+    background-position-x: -340px; 
+}
+.tenbo.tenThousand{
+    background-position-y: -428px; 
+    background-position-x: -340px; 
+}
+.tenbo.twentyThousand{
+    background-position-y: -467px; 
+    background-position-x: -340px; 
+}
