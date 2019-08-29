@@ -49,7 +49,7 @@ class Judge {
         const Check_kotsu = (arr:number[]) => { 
             return arr.map( v => v % 3);
          };
-        const Check_7toitsu = (arr:number[]) => {
+        const Check_Chitoitsu = (arr:number[]) => {
             for (let i = 1; i < 38; i++){
                 if (arr[i] > 1)
                     arr[i] %= 2;
@@ -83,7 +83,7 @@ class Judge {
         }
   
         tehai.forEach(v => {
-            idx = parseInt(v.slice(-1)) + ( vv => {
+            idx = parseInt(v.slice(1, 2)) + ( vv => {
                 switch(vv.slice(0,1)) {
                 case "s":
                     return 10;
@@ -118,7 +118,7 @@ class Judge {
   
                 //七対子
                 tmp_idx_tehai = Reset_tmp(idx_tehai,i);
-                if (Check_7toitsu(tmp_idx_tehai)) 
+                if (Check_Chitoitsu(tmp_idx_tehai)) 
                     return true;
   
                 //国士無双
@@ -138,7 +138,7 @@ class Judge {
         return tehai.filter((v) => v = suteHai).length = 3;
     }
     canChi(tehai: string[], suteHai: string, from: number){
-        if (from !== 3) return false; //上家じゃなかったら
+        if (from !== 3) return false; 
         let ret = [];
         const sutehaiCategory = suteHai.slice(0,1);
         //if (sutehaiCategory === 'z') return false;
