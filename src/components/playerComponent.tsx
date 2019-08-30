@@ -67,6 +67,7 @@ class PlayerComponent extends React.Component<PlayerProps> {
         console.log('-turn' + turn + ' player' + turnPlayer + ' dahai-') 
       }
       else if (judge.canTsumoAgari(Tehai[turnPlayer], Tehai[turnPlayer][-1])) {
+        alert('end');
         updateCanTsumoAgari(turnPlayer);
         console.log('-turn' + turn + ' player' + turnPlayer + ' tsumoAgari-') 
       }

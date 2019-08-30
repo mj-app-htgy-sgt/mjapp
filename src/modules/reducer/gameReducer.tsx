@@ -13,7 +13,7 @@ const initialState: GameState = {
     gameRound: [0, 1],
     turnPlayer: 99,
     turn: -1,
-    gameSpeed: 1000,
+    gameSpeed: 100,
     displayMode: 0,
 }
 
