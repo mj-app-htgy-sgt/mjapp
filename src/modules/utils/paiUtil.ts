@@ -128,11 +128,11 @@ class PaiUtil {
     //     this.players[idx].playerPonHai.splice(this.players[idx].playerPonHai.findIndex((v) => v === kanHai), 3);
     //     this.players[idx].playerKanHai.push(kanHai, kanHai, kanHai, kanHai);
     // }
-    // agari(idx: number, tehai: string[], agariHai: string, from: number) {
-    //     if(!this.judge.canAgari(tehai,agariHai,from))
-    //         throw console.error('上がれません');
-    //     console.log('勝者',this.players[idx]);
-    // }
+    agari(idx: number, tehai: string[], agariHai: string, from: number) {
+        if(!this.judge.canRonAgari(tehai, agariHai, from))
+            throw console.error('上がれません');
+        alert('勝者 ' + this.players.playerName[idx]);
+    }
 }
 
 export default PaiUtil;
