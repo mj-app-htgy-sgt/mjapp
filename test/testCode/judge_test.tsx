@@ -1,10 +1,9 @@
 import Judge from '../../src/modules/utils/judge';
 import * as util from '../testUtil';
-import * as tsumoAgari from '../testData/tsumoAgari';
-import * as ronAgari from '../testData/ronAgari';
+import * as tsumoAgari from '../testData/judge/tsumoAgari';
+import * as ronAgari from '../testData/judge/ronAgari';
 
-let judge = new Judge();
-
+const judge = new Judge();
 
 ////// public method
   //// -- canTsumoAgari --

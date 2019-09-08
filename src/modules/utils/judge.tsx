@@ -94,7 +94,6 @@ class Judge {
     }
 
     // private method
-    
     // utility
     private init = () => {
         this.idx_tehai.fill(0);
